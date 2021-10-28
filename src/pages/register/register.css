@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); 
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  --salmao: #F79767 ;
+  --azul: #5ec8f9;
+  --verde: #CDDC2D;
+  --amarelo: #FFE600;
+  --cinza: #1F1D2B;
+}
+
+.form-register-inputs {
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.container-register {
+  align-items: center;
+  background-color: var(--salmao);
+  width: 21rem;
+  height: 30rem;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+button.btn-enter {
+  background-color: var(--verde);
+  border-radius: 10px;
+  width: 6rem;
+  border-style: none;
+  padding: 0.5rem;
+  margin: 1.0rem;
+  margin-left: 5rem;
+  font-family: Creepster;
+}
+
+select.form-select {
+  font-family: 'Barlow Condensed';
+  margin-left: 1rem;
+}
+
+.footer-register {
+  font-family: 'Barlow Condensed';
+  text-align: center;
+}
+
+p.message-error {
+  font-family: 'Barlow Condensed';
+  line-height: 0.5rem;
+  font-style: italic;
+}

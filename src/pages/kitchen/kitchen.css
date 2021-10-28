@@ -1,0 +1,66 @@
+.container-kitchen {
+  display: flex;
+  width: 100%;
+}
+
+button.button {
+  padding: 0.5rem;
+  font-family: Creepster;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+button.btn-kitchen {
+  padding: 0.5rem;
+  font-family: Creepster;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 2.5rem;
+  display: block;
+  cursor: pointer;
+}
+
+.resume-order {
+  background-color: var(--cinza);
+  width: 100%;
+  color: white;
+  font-family: barlow condensed;
+  border-radius: 20px;
+  padding: 1rem;
+  height: 20rem;
+}
+
+section.btn-status {
+  margin-left: 1.5rem;
+}
+
+section.menu-title {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-title h1 {
+  font-family: 'Barlow Condensed';
+  font-size: 2rem;
+}
+
+article.order {
+  padding: 1rem;
+}
+
+section.container-orders{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 0rem 0rem 0rem 0.5rem;
+}
+
+section.box-order {
+  margin: 0rem 0.5rem 1rem 0.5rem;
+  width: 13rem;
+}
